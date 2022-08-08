@@ -1,0 +1,40 @@
+.Home {
+    background-color : black;
+    height: 142vh;
+    } 
+
+    .Home .Home-option {
+    padding : 40px 0px ; 
+    }
+    .Home .row1 {
+    position : relative;
+    top : 25%;
+    z-index: 3;
+    }
+     @media screen and (min-width: 993px) {
+    .Home .row1 {
+    position :relative;
+    top : 150px;
+    }
+    .Home .Home-option{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+   
+    }
+    } 
+    @media screen and (max-width: 992px) {
+    .Home img {
+     padding-top : 50px;
+    }
+    .Home{
+        height:100%;    
+    }
+    }
+    .Home .heading {
+    color : white;
+    font-size : 50px;
+    }
+
+

@@ -1,0 +1,31 @@
+.About {
+    background-color : black;
+    color : white;
+    height: 180vh;
+    }
+
+    .About .grid-item img {
+    width : 80%;
+    height : 80%;
+    }
+
+    @media screen and (min-width:770px){
+       .About .grid-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 180vh;
+       }
+       .About{
+        height:100%;
+       }
+    }
+
+    @media screen and (max-width: 769px) {
+        .About{
+            height: 100%;
+            padding:80px 0px
+        }
+    }
+
+    /* .About{background-color:#000;color:#fff;height:100%}.About .grid-item img{width:80%;height:80%} */

@@ -1,0 +1,43 @@
+#Services {
+    width : 100%;
+    height: 130vh;
+    background-color : black;
+    }
+    #Services h2 {
+    text-shadow : 5px 3px 3px rgb(237, 11, 11);
+    font-weight : bold;
+    }
+    #Services .card:hover {
+    box-shadow : 1px 5px 9px 2px rgb(79, 240, 11);
+    }
+    #Services .card {
+    overflow : hidden;
+    background-color : black;
+    color : white;
+    }
+    #Services .card img:hover {
+    transform : scale(1.1);
+    transition : 1s;
+    }
+    @media screen and (min-width: 770px) {
+    #Services .row {
+    padding : 100px 0px ;
+    }
+    #Services .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130vh;
+    }
+    #Services{
+        height: 100%;
+    }
+    }
+    @media screen and (max-width:768px){
+        #Services{
+            height: 100%;
+        } 
+    }
+
+
+    /* #Services{width:100%;height:100%;background-color:#000}#Services h2{text-shadow:5px 3px 3px #ed0b0b;font-weight:700}#Services .card:hover{box-shadow:1px 5px 9px 2px #4ff00b}#Services .card{overflow:hidden;background-color:#000;color:#fff}#Services .card img:hover{transform:scale(1.1);transition:1s}@media screen and (min-width: 992px){#Services .row{padding-top:100px}} */

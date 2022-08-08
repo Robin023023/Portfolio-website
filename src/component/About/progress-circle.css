@@ -1,0 +1,16 @@
+.progres{
+    width: 70%;
+    padding-top:70px;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+
+@media screen and (min-width:770px){
+    .progres{
+        position: relative;
+        
+    }
+}
+
+/* .progres{width:70%;padding-top:50px;margin:auto}@media screen and (min-width:769px){.progres{position:relative;top:-70px}} */

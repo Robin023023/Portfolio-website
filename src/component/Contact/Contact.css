@@ -1,0 +1,40 @@
+.Contact {
+    background-color : black;
+     height: 95vh;;
+    }
+     @media screen and (max-width:768px){
+     .Contact{
+        height:100%;
+        padding-bottom: 50px;
+     }
+    } 
+
+    .Contact .form-control {
+    background-color : black;
+    color:white;
+    }
+    .Eye-Icon {
+    float : right;
+    position : relative;
+    top : -35px;
+    left : -5px;
+    font-size : 19px;
+    cursor : pointer;
+    color : rgb(181, 172, 172);
+    }
+    @media screen and (min-width:770px) {
+    #Contact {
+    margin-top : 100px;
+    }
+    .Contact .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+    }
+    }
+    #Contact .photo {
+    border-radius : 30px;
+    }
+
+    /* .Contact{background-color:#000}.Contact .form-control{background-color:#000}.Eye-Icon{float:right;position:relative;top:-35px;left:-5px;font-size:19px;cursor:pointer;color:#b5acac}@media screen and (min-width: 992px){#Contact{margin-top:100px}}#Contact .photo{border-radius:30px} */
